@@ -16,7 +16,7 @@ A Django-based backend system for processing large CSV files and providing real-
 
    ```bash
    git clone <repo-url>
-   cd analytics_engine
+   cd analytic-engine
    cp .env.example .env
    ```
 
