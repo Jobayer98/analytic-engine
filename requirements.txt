@@ -1,0 +1,44 @@
+# Django & API Framework
+Django==4.2.7
+djangorestframework==3.14.0
+django-ninja==1.0.1
+django-cors-headers==4.3.1
+
+# Database (using PyMySQL instead of mysqlclient for Python 3.12 compatibility)
+PyMySQL==1.1.0
+cryptography==41.0.7
+django-extensions==3.2.3
+
+# Background Tasks
+celery==5.3.4
+redis==5.0.1
+django-celery-beat==2.5.0
+django-celery-results==2.5.1
+
+# File Processing (using compatible versions)
+pandas==2.1.4
+numpy==1.26.2
+
+# Environment & Config
+python-decouple==3.8
+django-environ==0.11.2
+
+# API Documentation
+drf-spectacular==0.26.5
+
+# Testing
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+
+# Development
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0
+
+# Monitoring & Performance
+psutil==5.9.6
+
+# Additional for Python 3.12 compatibility
+setuptools==69.0.2
